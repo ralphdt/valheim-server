@@ -10,7 +10,7 @@ services:
       - NAME=valheimserver
       - PORT=2456
       - WORLD=Dedicated
-      - PASSWORD=daniel99
+      - PASSWORD=******
       - PUBLIC=1
     volumes:
       - /volume1/docker/valheim/saves:/home/steam/.config/unity3d/IronGate/Valheim:rw
